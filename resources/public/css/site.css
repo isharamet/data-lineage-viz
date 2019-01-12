@@ -1,0 +1,43 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#app {
+    padding-left: 320px;
+}
+.pure-menu {
+    background-color: #ffbcaf;
+    color: #000000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    overflow-y: auto;
+}
+.pure-menu-heading {
+    /* background-color: #c85a54; */
+}
+.pure-menu-link:link, .pure-menu-link:visited {
+    background-color: #ffbcaf;
+}
+.pure-menu-heading {
+    font-weight: bold;
+}
+.pure-menu-link, .pure-menu-link:visited, .pure-menu-heading {
+    color: #000000;
+}
+.pure-menu-link:hover {
+    background-color: #ff8a80;
+}
+.pure-menu-link.pure-menu-selected {
+    background-color: #ff8a80
+}
+.custom-restricted-width {
+    /* To limit the menu width to the content of the menu: */
+    /* display: inline-block; */
+    /* Or set the width explicitly: */
+    /* width: 10em; */
+    width: 320px;
+}
+#graph {
+    padding: 20px;
+}

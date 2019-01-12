@@ -1,0 +1,7 @@
+{:data-transformations
+ {:transformation-b {:label "Transformation B"
+                     :input [:data-a-3 :data-b-1]
+                     :output [:data-c-1]}}
+ :data
+ {:data-c-1 {:label "Data C-1"
+             :data-type :type-c}}}

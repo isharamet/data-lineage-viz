@@ -1,0 +1,7 @@
+{:data
+ {:data-a-1 {:label "Data A-1"
+             :data-type :type-a}
+  :data-a-2 {:label "Data A-2"
+             :data-type :type-a}
+  :data-a-3 {:label "Data A-3"
+             :data-type :type-a}}}

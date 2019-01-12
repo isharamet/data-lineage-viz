@@ -1,0 +1,4 @@
+{:data-types
+ {:type-a {:label "Type A"}
+  :type-b {:label "Type B"}
+  :type-c {:label "Type C"}}}
