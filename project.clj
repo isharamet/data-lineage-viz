@@ -97,6 +97,7 @@
  ]
 
                    :source-paths ["env/dev/clj"]
+                   :resource-paths ["config/dev"]
                    :plugins [[lein-figwheel "0.5.17"]
                              [cider/cider-nrepl "0.18.0"]
                              [org.clojure/tools.namespace "0.3.0-alpha4"

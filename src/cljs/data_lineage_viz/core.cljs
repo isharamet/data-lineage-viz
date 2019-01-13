@@ -56,7 +56,6 @@
 
 (defn sidebar []
   (fn []
-    (.log js/console (:menu-items @state))
     (let [active-item (:selected-menu-item @state)]
       [:div.pure-menu.custom-restricted-width
        [:ul.pure-menu-list

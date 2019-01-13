@@ -1,0 +1,4 @@
+{:data-spec-resources ["resources/dummy-spec/data-types.edn"
+                       "resources/dummy-spec/data-a.edn"
+                       "resources/dummy-spec/transformation-a.edn"
+                       "resources/dummy-spec/transformation-b.edn"]}

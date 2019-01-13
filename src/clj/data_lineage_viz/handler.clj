@@ -7,7 +7,7 @@
             [data-lineage-viz.reader :as reader]
             [data-lineage-viz.graph :as graph]))
 
-(def data-spec (reader/build-spec reader/spec-files))
+(def data-spec (reader/build-spec (env :data-spec-resources)))
 
 (def lineage-graph (graph/build-graph data-spec))
 
