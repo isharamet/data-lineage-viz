@@ -1,6 +1,6 @@
 # data-lineage-viz
 
-This is the data-lineage-viz project.
+This is an attempt at defining arbitrary data lineage graph via small composable specification files which can describe data (`:data`), transformations (`:data-transformations`) and data types (`:data-types`) in any combination and then visualize it in some meaningful way. Then for each piece of data you can trace all incoming and outcoming nodes, which can help you understand the lineage better. For now graph is renderd using [GraphViz](https://www.graphviz.org/), but maybe I'll come with proper visualization (D3, maybe) in future.
 
 ## Development mode
 
@@ -49,42 +49,3 @@ and stopped by running:
 lein do clean, uberjar
 ```
 
-## Deploying to Heroku
-
-Make sure you have [Git](http://git-scm.com/downloads) and [Heroku toolbelt](https://toolbelt.heroku.com/) installed, then simply follow the steps below.
-
-Optionally, test that your application runs locally with foreman by running.
-
-```
-foreman start
-```
-
-Now, you can initialize your git repo and commit your application.
-
-```
-git init
-git add .
-git commit -m "init"
-```
-create your app on Heroku
-
-```
-heroku create
-```
-
-optionally, create a database for the application
-
-```
-heroku addons:add heroku-postgresql
-```
-
-The connection settings can be found at your [Heroku dashboard](https://dashboard.heroku.com/apps/) under the add-ons for the app.
-
-deploy the application
-
-```
-git push heroku master
-```
-
-Your application should now be deployed to Heroku!
-For further instructions see the [official documentation](https://devcenter.heroku.com/articles/clojure).
